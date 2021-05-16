@@ -96,3 +96,11 @@ span::after {
   width: 50%;
   max-width: 680px;
 }
+
+.search-img {
+  position: absolute;
+  left: 9%;
+  bottom: 8%;
+  width: 21px;
+  opacity: 0.5;
+}
