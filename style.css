@@ -68,3 +68,31 @@
 .link:hover::after {
   width: 100px;
 }
+
+span {
+  position: absolute;
+  left: -150px;
+  top: 200px;
+  transform: rotate(-90deg);
+  letter-spacing: 2px;
+  opacity: 0.6;
+}
+
+span::after {
+  content: '';
+  background: #fff;
+  height: 2px;
+  width: 60px;
+  position: absolute;
+  top: 50%;
+  left: 110%;
+  transform: translateY(-50%);
+}
+
+.featured-img {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 50%;
+  max-width: 680px;
+}
